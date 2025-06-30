@@ -1,4 +1,6 @@
 
+from future import annotations
+
 from typing import Collection
 
 class Person:

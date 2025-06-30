@@ -23,7 +23,7 @@ jobs:
           - "pypy-3.8"
           - "pypy-3.9"
 
-    name: Test on ${{ matrix.os }} with Python ${{ matrix.python-version }}
+    name: Test
     runs-on: ${{ matrix.os }}
 
     steps:
